@@ -10,11 +10,18 @@ Sveltify is a Component Library for [Svelte](https://svelte.dev)/[Sapper](https:
 
 ## Installation
 
-TODO: Describe the installation process
+```shell
+npm i @zdp/sveltify
+```
+
 
 ## Usage
 
-TODO: Write usage instructions
+### Importing components
+
+```js
+import { Component } from '@zdp/sveltify';
+```
 
 ## Contributing
 
@@ -23,6 +30,10 @@ TODO: Write usage instructions
 1. Commit your changes: `git commit -am 'Add some feature'`
 1. Push to the branch: `git push origin my-new-feature`
 1. Submit a pull request :D
+
+## Components list
+
+There are no ready-to-use components yet.
 
 ## Changelog
 
@@ -36,4 +47,4 @@ TODO: Write credits
 
 [MIT](LICENSE)  
 
-Copyright (c) 2020 ZDP LLC
+Copyright &copy; 2020 ZDP LLC

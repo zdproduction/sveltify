@@ -11,6 +11,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - <code>README.md</code>
 - <code>.editorconfig</code>
 - <code>CHANGELOG.md</code> (current file)
+- <code>src/index.js</code>
 
 ### Changed
 - Copyright holder name in <code>LICENSE</code>

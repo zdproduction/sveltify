@@ -2,11 +2,31 @@
 	export let segment;
 </script>
 
+<nav>
+	<ul>
+		<li><a aria-current='{segment === undefined ? "page" : undefined}' href='.'>Home</a></li>
+		<li><a rel=prefetch aria-current='{segment === "components" ? "page" : undefined}' href='components'>Components</a></li>
+		<li><a aria-current='{segment === "about" ? "page" : undefined}' href='about'>About</a></li>
+	</ul>
+  <ul>
+    <li>
+      <a class="social-link" href="https://github.com/zdproduction/sveltify" target="_blank">
+        <img src="./media/github.svg" alt="GitHub">
+      </a>
+    </li>
+  </ul>
+</nav>
+
 <style>
 	nav {
+    background: #fff;
 		border-bottom: 1px solid rgba(255,62,0,0.1);
 		font-weight: 300;
 		padding: 0 1em;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
 	}
 
 	ul {
@@ -42,19 +62,24 @@
 	}
 
 	a {
+    box-sizing: border-box;
 		text-decoration: none;
 		padding: 1em 0.5em;
 		display: block;
 	}
+
+  .social-link {
+    height: 32px;
+    opacity: .5;
+    transition: .25s ease-in-out;
+  }
+  .social-link:hover {
+    opacity: 1;
+  }
+  .social-link img {
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+
 </style>
-
-<nav>
-	<ul>
-		<li><a aria-current='{segment === undefined ? "page" : undefined}' href='.'>home</a></li>
-		<li><a aria-current='{segment === "about" ? "page" : undefined}' href='about'>about</a></li>
-
-		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-		     the blog data when we hover over the link or tap it on a touchscreen -->
-		<li><a rel=prefetch aria-current='{segment === "blog" ? "page" : undefined}' href='blog'>blog</a></li>
-	</ul>
-</nav>

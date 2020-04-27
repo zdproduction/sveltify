@@ -5,6 +5,7 @@
     "svelte",
     "sapper"
   ],
+  "main": "src/index.js",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
@@ -46,6 +47,5 @@
   "bugs": {
     "url": "https://github.com/zdproduction/sveltify/issues"
   },
-  "homepage": "https://sveltify.dev",
-  "main": "rollup.config.js"
+  "homepage": "https://sveltify.dev"
 }
