@@ -1,2 +1,4 @@
-export { default as Code } from './components/Code.svelte';
-export { default as Skeleton } from './components/Skeleton.svelte';
+import Code from './components/Code.svelte';
+import Skeleton from './components/Skeleton.svelte';
+
+export { Code, Skeleton};
