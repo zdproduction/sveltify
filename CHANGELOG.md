@@ -11,7 +11,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - <code>Skeleton component — visual placeholder for data that is being downloaded from the server.</code>
 - <code>ecosystem.config.js — pm2 settings file.</code>
 
-
 ## [0.0.1] - 2020-04-27
 ### Added
 - [sapper-template](https://github.com/sveltejs/sapper-template)
