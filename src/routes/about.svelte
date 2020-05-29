@@ -68,9 +68,11 @@
   Components list
 </h2>
 
-<p>
-  There are no ready-to-use components yet.
-</p>
+<ul>
+  <li>
+    <b>Skeleton</b> — visual placeholder for data that is being downloaded from the server.
+  </li>
+</ul>
 
 <h2>
   Changelog

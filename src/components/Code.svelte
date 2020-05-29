@@ -28,6 +28,11 @@
 </pre>
 
 <style>
+  pre {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
   code {
     background: rgb(87, 88, 80);
     color: #fff;
@@ -36,7 +41,6 @@
     padding: 16px;
     min-height: 53px;
     width: 100%;
-    position: relative;
   }
   .source {
     display: none;

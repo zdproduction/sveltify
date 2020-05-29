@@ -1,8 +1,8 @@
 {
 	"background_color": "#ffffff",
 	"theme_color": "#333333",
-	"name": "TODO",
-	"short_name": "TODO",
+	"name": "Sveltify — Component Library for Svelte/Sapper",
+	"short_name": "Sveltify",
 	"display": "minimal-ui",
 	"start_url": "/",
 	"icons": [
