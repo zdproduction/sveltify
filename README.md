@@ -33,7 +33,7 @@ import { Component } from '@zdp/sveltify';
 
 ## Components list
 
-There are no ready-to-use components yet.
+- Skeleton component — visual placeholder for data that is being downloaded from the server.
 
 ## Changelog
 
