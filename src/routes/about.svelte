@@ -1,3 +1,7 @@
+<script>
+  import Code from '../components/Code.svelte';
+</script>
+
 <svelte:head>
 	<title>About | Sveltify</title>
 </svelte:head>
@@ -18,18 +22,18 @@
 <h2>
   Installation
 </h2>
-<pre class="bash" style="font-family:monospace;">
+<Code language="bash">
   npm i @zdp/sveltify
-</pre>
+</Code>
 <h2>
   Usage
 </h2>
 <h3>
   Importing components
 </h3>
-<pre class="javascript" style="font-family:monospace;">
-  <span style="color: #FF0000;">import</span> <span style="color: #009900;">&#123;</span> Component <span style="color: #009900;">&#125;</span> from <span style="color: #3366CC;">'@zdp/sveltify'</span><span style="color: #339933;">;</span>
-</pre>
+<Code language="javascript">
+  {`import { Component } from '@zdp/sveltify';`}
+</Code>
 <h2>
   Contributing
 </h2>
@@ -39,21 +43,21 @@
   </li>
   <li>
     Create your feature branch:
-    <pre class="bash" style="font-family:monospace;">
+    <Code language="bash">
       git checkout -b my-new-feature
-    </pre>
+    </Code>
   </li>
   <li>
     Commit your changes:
-    <pre class="bash" style="font-family:monospace;">
+    <Code language="bash">
       git commit -am 'Add some feature'
-    </pre>
+    </Code>
   </li>
   <li>
     Push to the branch:
-    <pre class="bash" style="font-family:monospace;">
+    <Code language="bash">
       git push origin my-new-feature
-    </pre>
+    </Code>
   </li>
   <li>
     Submit a pull request :D
@@ -93,9 +97,5 @@
 </p>
 
 <style>
-  pre {
-    padding: 16px;
-    background: #f2f2f2;
-  }
 
 </style>
