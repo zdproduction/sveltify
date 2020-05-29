@@ -6,7 +6,7 @@
     "sapper"
   ],
   "main": "src/index.js",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",
