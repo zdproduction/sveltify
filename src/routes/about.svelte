@@ -23,7 +23,7 @@
   Installation
 </h2>
 <Code language="bash">
-  npm i @zdp/sveltify
+  npm i -D @zdp/sveltify
 </Code>
 <h2>
   Usage

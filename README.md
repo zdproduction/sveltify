@@ -11,7 +11,7 @@ Sveltify is a Component Library for [Svelte](https://svelte.dev)/[Sapper](https:
 ## Installation
 
 ```shell
-npm i @zdp/sveltify
+npm i -D @zdp/sveltify
 ```
 
 
