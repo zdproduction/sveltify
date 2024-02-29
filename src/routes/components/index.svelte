@@ -46,7 +46,7 @@ Import component & put it into container with <code>position: relative</code>:
 </h3>
 <ul>
   <li>
-    Animation sometimes didn't plays in Safari.
+    Animation sometimes don't play in Safari.
   </li>
 </ul>
 
